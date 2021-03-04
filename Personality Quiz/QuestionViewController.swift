@@ -1,7 +1,9 @@
 import UIKit
 
 class QuestionViewController: UIViewController {
-
+    
+    @IBOutlet weak var submitButton: UIButton!
+    
     var questions: [Question] = [
         Question(text: "Which food do you like the most?",
                  type: .single,
@@ -31,4 +33,14 @@ class QuestionViewController: UIViewController {
                  ])
     ]
 
+    @IBAction func showResults(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "resultsID", sender: sender)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //
+    }
+    
 }

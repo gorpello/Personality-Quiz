@@ -14,6 +14,7 @@
 		99D56F9F25F0E05C009BF118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D56F9D25F0E05C009BF118 /* LaunchScreen.storyboard */; };
 		99D56FA825F0E06C009BF118 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D56FA725F0E06C009BF118 /* QuestionData.swift */; };
 		99D56FAC25F0EA3F009BF118 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D56FAB25F0EA3F009BF118 /* QuestionViewController.swift */; };
+		99D56FB025F10479009BF118 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D56FAF25F10479009BF118 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		99D56FA025F0E05C009BF118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99D56FA725F0E06C009BF118 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 		99D56FAB25F0EA3F009BF118 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		99D56FAF25F10479009BF118 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,15 @@
 		99D56F9125F0E05A009BF118 /* Personality Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				99D56FAB25F0EA3F009BF118 /* QuestionViewController.swift */,
 				99D56FA725F0E06C009BF118 /* QuestionData.swift */,
 				99D56F9225F0E05A009BF118 /* AppDelegate.swift */,
 				99D56F9425F0E05A009BF118 /* SceneDelegate.swift */,
 				99D56F9825F0E05A009BF118 /* Main.storyboard */,
-				99D56FAB25F0EA3F009BF118 /* QuestionViewController.swift */,
 				99D56F9B25F0E05C009BF118 /* Assets.xcassets */,
 				99D56F9D25F0E05C009BF118 /* LaunchScreen.storyboard */,
 				99D56FA025F0E05C009BF118 /* Info.plist */,
+				99D56FAF25F10479009BF118 /* HomeViewController.swift */,
 			);
 			path = "Personality Quiz";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D56FB025F10479009BF118 /* HomeViewController.swift in Sources */,
 				99D56F9325F0E05A009BF118 /* AppDelegate.swift in Sources */,
 				99D56F9525F0E05A009BF118 /* SceneDelegate.swift in Sources */,
 				99D56FAC25F0EA3F009BF118 /* QuestionViewController.swift in Sources */,
